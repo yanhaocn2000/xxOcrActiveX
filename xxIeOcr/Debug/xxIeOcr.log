@@ -1,0 +1,65 @@
+﻿生成启动时间为 2013/5/28 23:19:06。
+     1>项目“D:\Sources\vc\xxIeOcr\xxIeOcr\xxIeOcr.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\Sources\vc\xxIeOcr\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\xxIeOcr.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       Midl:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\midl.exe /D _DEBUG /W1 /nologo /char signed /env win32 /h "xxIeOcridl.h" /tlb "Debug\xxIeOcr.tlb" /robust xxIeOcr.idl 
+         Processing .\xxIeOcr.idl
+         xxIeOcr.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\oaidl.acf
+         oaidl.acf
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\xxIeOcr.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\xxIeOcr.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt xxIeOcr.cpp xxIeOcrCtrl.cpp xxIeOcrPropPage.cpp
+         xxIeOcrPropPage.cpp
+         xxIeOcrCtrl.cpp
+         xxIeOcr.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\xxIeOcr.res" xxIeOcr.rc 
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\xxIeOcr.ocx.embed.manifest.res" Debug\xxIeOcr_manifest.rc 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Sources\vc\xxIeOcr\Debug\xxIeOcr.ocx" /INCREMENTAL /NOLOGO /DEF:".\xxIeOcr.def" /MANIFEST /ManifestFile:"Debug\xxIeOcr.ocx.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Sources\vc\xxIeOcr\Debug\xxIeOcr.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Sources\vc\xxIeOcr\Debug\xxIeOcr.lib" /MACHINE:X86 /DLL Debug\xxIeOcr.res
+         Debug\xxIeOcr.ocx.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\xxIeOcr.obj
+         Debug\xxIeOcrCtrl.obj
+         Debug\xxIeOcrPropPage.obj
+            正在创建库 D:\Sources\vc\xxIeOcr\Debug\xxIeOcr.lib 和对象 D:\Sources\vc\xxIeOcr\Debug\xxIeOcr.exp
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\xxIeOcr.ocx.embed.manifest" /manifest Debug\xxIeOcr.ocx.intermediate.manifest "D:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\xxIeOcr.ocx.embed.manifest.res" Debug\xxIeOcr_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Sources\vc\xxIeOcr\Debug\xxIeOcr.ocx" /INCREMENTAL /NOLOGO /DEF:".\xxIeOcr.def" /MANIFEST /ManifestFile:"Debug\xxIeOcr.ocx.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Sources\vc\xxIeOcr\Debug\xxIeOcr.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Sources\vc\xxIeOcr\Debug\xxIeOcr.lib" /MACHINE:X86 /DLL Debug\xxIeOcr.res
+         Debug\xxIeOcr.ocx.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\xxIeOcr.obj
+         Debug\xxIeOcrCtrl.obj
+         Debug\xxIeOcrPropPage.obj
+         xxIeOcr.vcxproj -> D:\Sources\vc\xxIeOcr\Debug\xxIeOcr.ocx
+       RegisterOutput:
+         regsvr32 /s "D:\Sources\vc\xxIeOcr\Debug\xxIeOcr.ocx"
+       FinalizeBuildStatus:
+         正在删除文件“Debug\xxIeOcr.unsuccessfulbuild”。
+         正在对“Debug\xxIeOcr.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Sources\vc\xxIeOcr\xxIeOcr\xxIeOcr.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.42

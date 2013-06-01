@@ -1,0 +1,51 @@
+// xxIeOcr.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(xxIeOcr.tlb)，该类型库将成为
+// xxIeOcr.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(8C9E3330-6B81-4E49-BAE8-C6E05B53C032), version(1.0),
+  control ]
+library xxIeOcrLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CxxIeOcrCtrl 的主调度接口
+	[ 
+		uuid(7EAAAC8B-2B3B-4DC5-A8DD-CB4511721FF3)	
+	]
+	dispinterface _DxxIeOcr
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  CxxIeOcrCtrl 的事件调度接口
+
+	[ 
+		uuid(1750CCDE-572C-440B-83AF-D60B85BAB4BF)	
+	]
+	dispinterface _DxxIeOcrEvents
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+	};
+
+	//  CxxIeOcrCtrl 的类信息
+	[
+		uuid(32B6C7B0-80C4-4797-9FA7-A24236C1B0AB)
+	]
+	coclass xxIeOcr
+	{
+		[default] dispinterface _DxxIeOcr;
+		[default, source] dispinterface _DxxIeOcrEvents;
+	};
+
+};
